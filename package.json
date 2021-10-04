@@ -1,0 +1,20 @@
+{
+    "name": "comeon-assignment",
+    "description": "ComeOn assignment",
+    "authors": "v.beliaev",
+    "version": "1.0.0",
+    "scripts": {
+        "cy:open": "cypress open",
+        "cy:run": "cypress run",
+        "cy:hajper-run-all": "cypress run --config baseUrl=\"https://www.hajper.com/\"",
+        "cy:hajper-run-mobile": "cypress run --config baseUrl=\"https://www.hajper.com/\" --spec \"./cypress/integration/mobile/*\"",
+        "cy:hajper-run-desktop": "cypress run --config baseUrl=\"https://www.hajper.com/\" --spec \"./cypress/integration/desktop/*\"",
+        "cy:snabbare-run-all": "cypress run --config baseUrl=\"https://www.snabbare.com/\"",
+        "cy:snabbare-run-mobile": "cypress run --config baseUrl=\"https://www.snabbare.com/\" --spec \"./cypress/integration/mobile/*\"",
+        "cy:snabbare-run-desktop": "cypress run --config baseUrl=\"https://www.snabbare.com/\" --spec \"./cypress/integration/desktop/*\"",
+    },
+    "devDependencies": {
+        "cypress": "^7.7.0",
+        "typescript": "^4.4.3"
+    }
+}

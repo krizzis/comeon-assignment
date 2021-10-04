@@ -1,0 +1,7 @@
+{
+	"supportFile": "cypress/support/index.js",
+	"pluginsFile": "cypress/plugins/index.js",
+	"watchForFileChanges": false,
+	"defaultCommandTimeout": 10000,
+	"pageLoadTimeout": 100000
+}
