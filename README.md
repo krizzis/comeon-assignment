@@ -20,3 +20,5 @@ As reporting tool 'cypress-mochawesome-reporter' have been chosen.
 
 <a href="https://drive.google.com/file/d/1oZHdzl3AFPBeTcar7whSUKpWcAIxSkkH/view?usp=sharing" target="_blank">Example of generated report</a>
 
+Time spent on this assignment about 5-6 hours
+
