@@ -3,5 +3,13 @@
 	"pluginsFile": "cypress/plugins/index.js",
 	"watchForFileChanges": false,
 	"defaultCommandTimeout": 10000,
-	"pageLoadTimeout": 100000
+	"pageLoadTimeout": 100000,
+	"baseUrl": "https://www.snabbare.com/",
+	"reporter": "cypress-mochawesome-reporter",
+	"reporterOptions": {
+		  "reportDir": "cypress/report",
+		  "charts": true,
+		  "embeddedScreenshots": true
+		  
+	}
 }
