@@ -1,0 +1,1 @@
+export type CyJElement = Cypress.Chainable<JQuery>; // Returns HTMLElement
